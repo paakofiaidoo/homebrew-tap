@@ -1,8 +1,8 @@
 class Cowtree < Formula
   desc "Copy-on-write git worktrees for parallel AI coding sessions"
   homepage "https://github.com/paakofiaidoo/cowtree"
-  url "https://github.com/paakofiaidoo/cowtree/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "4a8ea2f38bdb9649f83e4fbde3b9ae59d5cfdcfc37e7c63f1a7d9190b1612b82"
+  url "https://github.com/paakofiaidoo/cowtree/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "8bd833ab65dd0ff917491b1e40fbb7d00c74b5e0cec4a74d1553804f15c83348"
   license "MIT"
   head "https://github.com/paakofiaidoo/cowtree.git", branch: "main"
 
@@ -14,6 +14,6 @@ class Cowtree < Formula
   end
 
   test do
-    assert_match "0.4.0", shell_output("#{bin}/cowtree version")
+    assert_match "0.4.1", shell_output("#{bin}/cowtree version")
   end
 end
