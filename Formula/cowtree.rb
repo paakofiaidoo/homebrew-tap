@@ -1,8 +1,8 @@
 class Cowtree < Formula
   desc "Copy-on-write git worktrees for parallel AI coding sessions"
   homepage "https://github.com/paakofiaidoo/cowtree"
-  url "https://github.com/paakofiaidoo/cowtree/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "8bd833ab65dd0ff917491b1e40fbb7d00c74b5e0cec4a74d1553804f15c83348"
+  url "https://github.com/paakofiaidoo/cowtree/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "572a1f806d2f7ea1f39d6775c87f46b4e9ed22cd001104d95f7643c04a4fdafe"
   license "MIT"
   head "https://github.com/paakofiaidoo/cowtree.git", branch: "main"
 
