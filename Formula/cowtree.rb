@@ -14,6 +14,6 @@ class Cowtree < Formula
   end
 
   test do
-    assert_match "0.4.1", shell_output("#{bin}/cowtree version")
+    assert_match version.to_s, shell_output("#{bin}/cowtree version")
   end
 end
